@@ -1,5 +1,5 @@
 # -------- Stage 1: Build --------
-FROM rust:1.87 as build-deps
+FROM rust:1.87 AS build-deps
 
 WORKDIR /app
 
